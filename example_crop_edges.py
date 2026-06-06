@@ -4,7 +4,7 @@ from src.crop_edges import crop_geotiff_left_right
 import os
 import glob
 
-downsample_dir = r"XX:\Data"
+downsample_dir = r"E:\EN2501\SAS\DIVE049_SN401\processing\geotiff\EN2501_DIVE049_10cm"
 
 # Find all .tif files in the directory
 tif_files = glob.glob(os.path.join(downsample_dir, "*.tif"))
